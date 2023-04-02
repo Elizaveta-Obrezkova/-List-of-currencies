@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+}
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.highlight-row {
+    background-color: blue;
+}
+
+.find-row {
+    background-color: green;
+}
+
+.table-data {
+    border: 1px solid black;
+    text-align: center;
+}

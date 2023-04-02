@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="header">List of currencies</h1>
+
+    <table class="table">
+        <caption>Currencies</caption>
+        <tr class="table-row">
+            <th scope="col" class="table-data">id</th>
+            <th scope="col" class="table-data">symbol</th>
+            <th scope="col" class="table-data">name</th>
+        </tr>
+
+    </table>
+
+    <template id="element-template">
+        <tr class="element table-row">
+            <td class="element-id table-data"></td>
+            <td class="element-symbol table-data"></td>
+            <td class="element-name table-data"></td>
+        </tr>
+    </template>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
